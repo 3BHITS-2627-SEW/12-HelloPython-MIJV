@@ -37,3 +37,5 @@ print("alternativtext:" ,alternativtext)
 #int i = 0
 #printf("bitte zahl eingeben:\n ");
 #scanf(%i);
+eingelesenezahl = input("Bitte zahl eingeben: ")
+print("Zahl eingelesen vom Typ", type(eingelesenezahl))
