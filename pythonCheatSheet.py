@@ -37,5 +37,16 @@ print("alternativtext:" ,alternativtext)
 #int i = 0
 #printf("bitte zahl eingeben:\n ");
 #scanf(%i);
-eingelesenezahl = input("Bitte zahl eingeben: ")
+eingelesenezahl = int (input("Bitte zahl eingeben: "))
 print("Zahl eingelesen vom Typ", type(eingelesenezahl))
+
+#funktionen
+##int main(void) {
+  ##  printf("hallo funktionen!");
+##}
+
+def main():{
+print("Hallo Main!")
+}
+
+main()
