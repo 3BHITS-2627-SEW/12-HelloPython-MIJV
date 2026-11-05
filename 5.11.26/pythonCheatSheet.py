@@ -50,3 +50,16 @@ print("Hallo Main!")
 }
 
 main()
+
+#main2()
+
+def main2():
+    print("hellofuncion2!")
+
+    #starte nur dann eine funktion 
+    #ween das program als hauptprogramm gestartet wurde
+
+    #-> pruefe spezial variable
+    if __name__ == "__main__":
+        #das program wurde als hauptprogramm gestartet
+        main2()
